@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like Home Tiffin Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #ff9800;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Like Home Tiffin Service
+    </header>
+    <div class="container">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Veg Thali</h3>
+                <p>Rice, Chapati, Dal, Sabzi</p>
+            </div>
+            <div class="menu-item">
+                <h3>Special Thali</h3>
+                <p>Rice, Chapati, Dal, Sabzi, Sweet</p>
+            </div>
+            <div class="menu-item">
+                <h3>South Indian</h3>
+                <p>Idli, Dosa, Sambar, Chutney</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Contact Us: +91 98765 43210 | Email: tiffinservice@example.com
+    </footer>
+</body>
+</html>
